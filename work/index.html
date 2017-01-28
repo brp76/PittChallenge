@@ -8,12 +8,18 @@
   <link rel="stylesheet" href="css/main.css" />
 
 </head>
-
+ 
 <body>
 
-  <h1>24/7 PharmaSee</h1>
+  <h1>24/7 PharmaSee 2.0</h1>
+
+  <div id="videos">
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay></video>
+  </div>
 
   <script src="/socket.io/socket.io.js"></script>
+  <script src="js/lib/adapter.js"></script>
   <script src="js/main.js"></script>
 
 </body>
